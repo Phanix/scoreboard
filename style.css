@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.guest, .home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-transform: uppercase;
+
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#reset-btn{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 100px;
+    background-color: red;
+    color: white;
+    border-color: white;
+}
